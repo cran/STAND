@@ -1,0 +1,7 @@
+exportPattern("^[[:alpha:]]+")
+import(survival)
+importFrom("graphics", "abline", "lines", "plot", "points")
+importFrom("stats", "binom.test", "cor", "dlnorm", "lm", "optim",
+          "pchisq", "plnorm", "pnorm", "pt", "qbeta", "qnorm", "qt",
+          "sd", "stepfun", "uniroot")
+importFrom("utils", "read.csv", "read.table", "write.csv")
